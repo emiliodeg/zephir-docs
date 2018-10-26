@@ -3,7 +3,7 @@ Array manipulation in Zephir provides a way to use PHP [array](http://www.php.ne
 
 <a name='declaring-array-variables'></a>
 ## Declaring Array Variables
-Array variables can be declared using the keywords 'var' or 'array':
+Array variables can be declared using the keywords `var` or `array`:
 
     var a   = []; // array variable, its type can be changed
     array b = []; // array variable, its type cannot be changed across execution
@@ -75,6 +75,6 @@ It is possible to read array elements as follows:
 
     let foo = elements["foo"];
     
-##### Getting an element using the numeric key 0
+##### Getting an element using the numeric key `0`
 
     let foo = elements[0];
